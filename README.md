@@ -9,6 +9,7 @@
       ```
       source .\env\Scripts\Activate.ps1
       ```
+      detivate 
 
 3. Install the dependencies
       ```
