@@ -6,10 +6,6 @@ __pycache__/
 venv/
 *.sqlite3
 
-
-# Node
-node_modules/
-
 # Logs
 *.log
 
