@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from config import get_db_connection
+from app.config.config import get_db_connection
 
 
 # CREATE table in python code its easy to maintain the code for everyone
