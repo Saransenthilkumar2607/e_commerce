@@ -1,0 +1,53 @@
+# import pandas as pd
+
+# df = pd.read_excel('C:/Users/saran/OneDrive/Desktop/e_commerce/upload/user_upload_details')
+
+# print(df)
+
+
+# import pandas as pd
+# #df = dataframe
+# df = pd.read_excel('C:/Users/saran/OneDrive/Desktop/e_commerce/excel_files/e_commerce_details.xlsx', engine='openpyxl')
+# print(df)
+
+
+
+# import openpyxl
+
+# df = openpyxl.load_workbook('C:/Users/saran/OneDrive/Desktop/e_commerce/excel_files/e_commerce_details.xlsx')
+# df1 = df.active
+
+# data = []
+# for row in range(1, df1.max_row + 1):
+#     row_data=[]
+#     for col in range(1, df1.max_column + 1):
+#         row_data.append(df1.cell(row=row, column=col).value)
+#     data.append(row_data)
+# for row in data:
+#     print(row)
+
+
+
+# import openpyxl
+
+# df = openpyxl.load_workbook('C:/Users/saran/OneDrive/Desktop/e_commerce/excel_files/e_commerce_details.xlsx')
+# df1 = df.active
+
+# names = []
+# for row in range(2, df1.max_row + 1):
+#     names.append(df1.cell(row=row, column=1).value) 
+
+# for name in names:
+#     print(name)
+
+
+
+# import openpyxl
+
+# df = openpyxl.load_workbook('C:/Users/saran/OneDrive/Desktop/e_commerce/excel_files/e_commerce_details.xlsx')
+# df1 = df.active
+
+# names = []
+# for row in range(2, df1.max_row ):
+#     names.append(df1.cell(row=row, column=1).value) 
+# print (names)

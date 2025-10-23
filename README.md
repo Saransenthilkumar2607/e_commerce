@@ -10,7 +10,8 @@
       source .\env\Scripts\Activate.ps1
       /venv/Scripts/Activate.ps1
       ```
-      detivate 
+      deactivate
+ 
 
 3. Install the dependencies
       ```
@@ -23,3 +24,10 @@
       ```
       python app.py
       ```
+
+6. if you want to find the version of the reqyirements
+      ```
+      python -m pip show pandas
+      ```
+
+7. 
