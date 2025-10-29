@@ -30,4 +30,16 @@
       python -m pip show pandas
       ```
 
-7. 
+7. Initialize Migrations Folder
+      ```
+      flask --app app:create_app db init --directory app/migrations
+      ```
+   Generate Migration Script
+      ```
+      flask --app app:create_app db migrate -m "Add customer table" --directory app/migrations
+      ```
+   Apply Migration to Database
+      ```
+      flask --app app:create_app db upgrade --directory app/migrations
+      ```
+      
